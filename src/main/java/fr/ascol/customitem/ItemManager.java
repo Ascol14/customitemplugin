@@ -24,10 +24,10 @@ public class ItemManager {
         ItemStack item = new ItemStack(Material.GOLDEN_SWORD, 1);
         ItemMeta meta = item.getItemMeta();
 
-        meta.setDisplayName('§6Super Sword');
+        meta.setDisplayName("§6Super Sword");
 
         List<String> lore = new ArrayList<>();
-        lore.add('§7Damage: §c+70');
+        lore.add("§7Damage: §c+70");
 
         meta.setLore(lore);
 
