@@ -1,11 +1,13 @@
 package fr.ascol.customitem;
 
 import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeModifier;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
@@ -27,6 +29,7 @@ public class ItemManager {
         meta.setDisplayName("§6Super Sword");
 
         List<String> lore = new ArrayList<>();
+        lore.add("§6Super Sword §7caracteristique :");
         lore.add("§7Damage: §c+70");
 
         meta.setLore(lore);
